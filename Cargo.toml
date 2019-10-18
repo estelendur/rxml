@@ -1,0 +1,12 @@
+[package]
+name = "rxml"
+version = "0.1.0"
+authors = ["Esty Thomas <estelendur@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rxml"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "*"
